@@ -376,7 +376,7 @@ pip install tensorflow numpy matplotlib opencv-python seaborn tqdm
 Download zip file for the dataset available at [Face-Mask-Segmentation](https://github.com/sadjadrz/MFSD).
 
 ### 3. Run the Script
-Execute the Python script or Jupyter Notebook containing the CNN model implementation [segmentation.ipynb](segmentation.ipynb).
+Execute the Python script or Jupyter Notebook containing the model implementation [segmentation.ipynb](segmentation.ipynb).
 
 ## Score distributions for different segmentaion approaches
 
