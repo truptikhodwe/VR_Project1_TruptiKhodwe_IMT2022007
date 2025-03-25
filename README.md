@@ -181,7 +181,7 @@ The dataset consists of cropped face images from the MSFD dataset.
 
 ### i. Introduction
 
-This project applies multiple traditional image segmentation techniques for mask segmentation. The `part_c.ipynb` notebook evaluates different segmentation methods, processes image masks, and computes segmentation quality metrics.
+This project applies multiple traditional image segmentation techniques for mask segmentation. The `segmentation.ipynb` notebook evaluates different segmentation methods, processes image masks, and computes segmentation quality metrics.
 
 ### ii. Methodology
 
