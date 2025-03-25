@@ -165,6 +165,7 @@ Execute the Python script or Jupyter Notebook containing the CNN model implement
 ![Image Description](images/svm_confusion_matrix.png)
 ![Image Description](images/mlp_confusion_matrix.png)
 ![Image Description](images/xgb_confusion_matrix.png)
+#### CNN:
 ![Image Description](images/cnn_confusion_matrix.png)
 
 ---
@@ -345,18 +346,13 @@ The project follows these steps:
 
 ### iv. Results
 The models were evaluated using **Dice Score** and **IoU Score**:
-- **First Approach:**
-  - Dice Score: **79.21%**
-  - IoU Score: **65.58%**
-- **Second Approach:**
-  - Dice Score: **80.46%**
-  - IoU Score: **67.30%**
-- **Third Approach:**
-  - Dice Score: **86.65%**
-  - IoU Score: **76.44%**
-- **Fourth Approach:**
-  - Dice Score: **89.02%**
-  - IoU Score: **80.21%**
+
+| Approach | Dice Score (%) | IoU Score (%) |
+|----------------------|---------------|--------------|
+| First |     79.21  |    65.58           |
+| Second | 80.46            | 67.30           |
+| Third | 86.65               | 76.44           |
+| Fourth | 89.02     | 80.21           |
 
 ### v. Observations and Analysis
 - **Better Feature Representation:** A deeper bottleneck and more filters lead to stronger feature extraction.
@@ -385,7 +381,9 @@ Execute the Python script or Jupyter Notebook containing the CNN model implement
 ## Score distributions for different segmentaion approaches
 
 ![Image Description](images/score_distribution_combined.png)
+#### K-Means:
 ![Image Description](images/score_distribution_kmeans.png)
+
 
 ## Example usage of U-Net model
 ![Image Description](images/segmentation_output.png)
